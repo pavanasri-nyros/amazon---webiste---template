@@ -33,10 +33,7 @@
       margin-top: 10px;
   }
 
- .menu{
-     height: 50%;
-     width: 10%;
- }
+ 
   input{
     vertical-align:top;
     margin-top:10px;
@@ -93,17 +90,122 @@
 
 }
 
+.discover
+{
+  margin-left: -5%;
+}
 
+.icon3 .fas{
+  color:#a85632;
+}
+.cart {
+  background: transparent url(../img/cart.png) no-repeat 11px 11px;
+  background-size: 39px;
+  padding: 7px 20px 7px 50px;
+}
+.cart span {
+  color: #f08804;
+  margin-left: -20px;
+
+  font-size: 16px;
+  font-weight: 700;
+
+}
+
+.name{
+  margin-left: -15px;
+  font-size: 15px;
+}
+
+.button {
+  position: absolute;
+  width:200px;
+  left:0;
+  top: 150px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+  border-
+}
+
+.button a {
+  width: 200px;
+  padding: 10px 40px;
+  text-align: center;
+
+  background-color:white;
+  color:black;
+  border: solid 1px black;
+  z-index: 1;
+}
+
+.container:hover .button {
+  opacity: 1;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1560px;
+  }
+}
+
+.menu{
+    font-size:25px;
+    width :35px;
+    height: 35px;
+    margin: 3px  auto;
+   
+    padding: 5px;
+    padding-bottom: 3px;
+    border : 0.5px solid white;
+    
+    border-radius:10%;
+    margin-bottom: 60px;
+    margin-top:9px;
+    margin-left: 5px;;
+                        
+                       
+  }
+
+  .logo{
+    height:32px;
+    width: 100px;
+    margin-top:-10px;
+  }
+
+  .all{
+    height: 38px;
+    width: 50px;
+    margin-top: 10px;
+  }
+
+  #basic-addon2
+{
+  background-color: #febd69;
+}
 .pav{
   text-decoration: none;
 }
+
 a:hover{
   text-decoration: none;
   color: orangered;
 }
+.icon3{
+  font-size:40px;
+  width :100px;
+  height: 100px;
+  margin: 20px auto;
+  margin-left:15px;
+  padding: 20px;
+  border : 2px solid #a85632;
+  border-radius: 50%;
+  text-align: center;
+  
+}
 
-
-button:hover{
+button:hover
+{
   opacity:1;
   margin-left: 5%;
 }
@@ -118,6 +220,7 @@ button:hover{
   color: #555;
 }
 
+/*Footer  styles*/
 .footer a {
   color: #fff;
 }
@@ -257,107 +360,5 @@ button:hover{
   font-size: 10px;
 }
 
-.icon3{
-  font-size:40px;
-  width :100px;
-  height: 100px;
-  margin: 20px auto;
-  margin-left:15px;
-  padding: 20px;
-  border : 2px solid #a85632;
-  border-radius: 50%;
-  text-align: center;
-  
-}
 
-.discover
-{
-  margin-left: -5%;
-}
 
-.icon3 .fas{
-  color:#a85632;
-}
-.cart {
-  background: transparent url(../img/cart.png) no-repeat 11px 11px;
-  background-size: 39px;
-  padding: 7px 20px 7px 50px;
-}
-.cart span {
-  color: #f08804;
-  margin-left: -20px;
-
-  font-size: 16px;
-  font-weight: 700;
-
-}
-
-.name{
-  margin-left: -15px;
-  font-size: 15px;
-}
-
-.button {
-  position: absolute;
-  width:200px;
-  left:0;
-  top: 150px;
-  text-align: center;
-  opacity: 0;
-  transition: opacity .35s ease;
-  border-
-}
-
-.button a {
-  width: 200px;
-  padding: 10px 40px;
-  text-align: center;
-
-  background-color:white;
-  color:black;
-  border: solid 1px black;
-  z-index: 1;
-}
-
-.container:hover .button {
-  opacity: 1;
-}
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1560px;
-  }
-}
-
-.menu{
-    font-size:25px;
-    width :35px;
-    height: 35px;
-    margin: 3px  auto;
-   
-    padding: 5px;
-    padding-bottom: 3px;
-    border : 0.5px solid white;
-    
-    border-radius:10%;
-    margin-bottom: 60px;
-    margin-top:9px;
-    margin-left: 5px;;
-                        
-                       
-  }
-
-  .logo{
-    height:32px;
-    width: 100px;
-    margin-top:-10px;
-  }
-  .all{
-    height: 38px;
-    width: 50px;
-    margin-top: 10px;
-  }
-  #basic-addon2
-{
-  background-color: #febd69;
-}
