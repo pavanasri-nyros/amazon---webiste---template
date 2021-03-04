@@ -1,5 +1,5 @@
 # amazon---webiste---template
-Heroku link : https://amazon-webiste-template.netlify.app/
+Heroku link : https://amazon-website-template.netlify.app/
 
 Technologies:
 
